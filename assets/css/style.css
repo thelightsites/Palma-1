@@ -87,3 +87,8 @@ h1.dots {
   text-align: center;
   background-color: #42b883;
 }
+/* menu styles start here */
+#card{
+  background-color: #ff8246;
+  box-shadow: 2px 2px 2px black;
+}
