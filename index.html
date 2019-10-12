@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width , intial-scale=1.0">
+  <title>Palma Restaurant</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/css/bulma-carousel.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      // Check for click events on the navbar burger icon
+      $(".navbar-burger").click(function() {
+        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+        $(".navbar-burger").toggleClass("is-active");
+        $(".navbar-menu").toggleClass("is-active");
+      });
+    });
+  </script>
+</head>
+
+
+<body>
+  <div class="wrapper">
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+
+
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="menu.html">
+            Menu
+          </a>
+
+          <a class="navbar-item" href="deals.html">
+            Deals
+          </a>
+
+          <a class="navbar-item">
+            Coupons
+          </a>
+
+          <a class="navbar-item">
+            Directions
+          </a>
+        </div>
+    </nav>
+
+    <header class="header">
+      <img class="logo" src="/assets/img/pLogo.png" alt="Palma logo">
+    </header>
+
+    <!--slideshow of pictures-->
+    <section id="slideshow" class="section">
+      <div class="slideshow">
+        <img class="food" src="/assets/img/food.jpg" alt="">
+        <span class="secondTitle">Spanish American Cuisine</span>
+      </div>
+    </section>
+
+
+
+
+
+
+    <!--Hours-->
+    <section id="hours" class="section">
+      <div class="container">
+        <h3 class="is-size-6">252 MAIN ST. ANSONIA, CT 06401</h3>
+        <h1 class="is-size-1">203.516.5588</h1>
+        <br>
+        <h3>OPEN MONDAY - SATURDAY 9AM - 8PM</h3>
+        <h3>FREE DELIVERY [MIN $10]</h3>
+        <a href="https://www.ubereats.com/en-US/connecticut/food-delivery/palma-restaurant/DagizrO8SGW8fKcxSmm6uA/"><img class="uber" src="/assets/img/uber.png" alt="ubereats"></a>
+        <br>
+        <h3>BREAKFAST/LUNCH/DINNER & COMBOS</h3>
+        <h3>DESAYUNO/ALMUERZO/CENA & COMBOS</h3>
+      </div>
+    </section>
+
+    <!--SPECIALS-->
+    <section id="specials" class="section">
+      <div class="container is-centered">
+        <h1 class="dots">. . .</h1>
+        <h2>LUNCH SPECIALS</h2>
+        <h3>Starting at $6.50 & up</h3>
+        <br>
+        <h2>ESPECIAL DE ALMUERZO</h2>
+        <h3>Empezando a $6.50 en adelante</h3>
+        <br>
+        <h3>FROM 11AM - 3PM</h3>
+        <h1 class="dots">. . .</h1>
+      </div>
+    </section>
+
+    <!--footer-->
+    <footer class="footer">
+      <div class="content has-text-centered">
+        Powered by TheLightSites &copy 2019
+      </div>
+    </footer>
+  </div>
+
+</body>
+
+<!--Footer-->
+
+
+</html>

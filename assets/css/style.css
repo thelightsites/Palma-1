@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  color: white;
+}
+
+html, body {
+  background-color: #f09c67;
+}
+
+h1, h3 {
+  color: black;
+}
+
+h1.dots {
+  color: white;
+}
+
+.uber {
+  border-radius: 10px;
+  height: 40px;
+}
+
+.header {
+  width: 100%;
+  background-color: #f09c67;
+}
+
+.wrapper {
+  height: 100vh;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+}
+
+.wrapper-nav {
+  border: 2px solid red;
+  width: 100%;
+  text-align: center;
+}
+
+#slideshow {
+  text-align: center;
+  background-color: #f09c67;
+  width: 100%;
+  height: 40%;
+  padding: 0;
+}
+
+.slideshow {
+  width: 100%;
+  height: 100%;
+}
+
+.food {
+  height: 100%;
+}
+
+.secondTitle {
+  border: 1px solid black;
+  color: white;
+  background-color: #ff8246;
+  border-radius: 50px;
+  box-shadow: 2px 2px 2px black;
+  padding: 5px;
+  position: relative;
+  top: -20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  z-index: 2;
+}
+
+#hours {
+  text-align: center;
+  background-color: #f09c67;
+}
+
+#specials {
+  text-align: center;
+  background-color: #42b883;
+}
