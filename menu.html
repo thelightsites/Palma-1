@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width , intial-scale=1.0">
+  <title>Menu</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/css/bulma-carousel.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      // Check for click events on the navbar burger icon
+      $(".navbar-burger").click(function() {
+        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+        $(".navbar-burger").toggleClass("is-active");
+        $(".navbar-menu").toggleClass("is-active");
+      });
+    });
+
+    document.addEventListener('DOMContentLoaded', function() {
+      let cardToggles = document.getElementsByClassName('card-toggle');
+      for (let i = 0; i < cardToggles.length; i++) {
+        cardToggles[i].addEventListener('click', e => {
+          e.currentTarget.parentElement.parentElement.childNodes[3].classList.toggle('is-hidden');
+        });
+      }
+    });
+  </script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+
+        <p class="navbar-item is-size-4 is-uppercase has-text-weight-bold">Menu</p>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="menu.html">
+            Menu
+          </a>
+
+          <a class="navbar-item" href="deals.html">
+            Deals
+          </a>
+
+          <a class="navbar-item" href="coupons.html">
+            Coupons
+          </a>
+
+          <a class="navbar-item" href="directions.html">
+            Directions
+          </a>
+        </div>
+    </nav>
+
+    <!--MENU GOES UNDER HERE-->
+    <section class="section">
+      <div class="container">
+        <a class="card-toggle"><div id="card" class="card is-fullwidth"">
+          <header class="card-header">
+            <p class="card-header-title">BREAKFAST SANDWICHES/ Sandwiches Desayunos</p>
+            <a class="card-header-icon card-toggle">
+              <i class="fa fa-angle-down"></i>
+            </a>
+          </header>
+          <div class="card-content is-hidden">
+            <div class="content">
+              <table class="table">
+                <tbody>
+                  <tr>
+                    <th>BLT <td><small>Tocino,Lechuga,Tomate</small></td></th>
+                    <th>$3.50</th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div></a>
+        <br>
+        <div class="card is-fullwidth">
+          <header class="card-header">
+            <p class="card-header-title">Card #2</p>
+            <a class="card-header-icon card-toggle">
+              <i class="fa fa-angle-down"></i>
+            </a>
+          </header>
+          <div class="card-content is-hidden">
+            <div class="content">
+              Some more content. Look at all this whitespace. <small>(Unless you are on mobile)</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  </div>
+</body>
+
+</html>
