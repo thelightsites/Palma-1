@@ -87,3 +87,9 @@ h1.dots {
   text-align: center;
   background-color: #42b883;
 }
+
+/* combos styles start */
+
+h1 {
+  text-align: center;
+}
