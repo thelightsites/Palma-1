@@ -87,16 +87,11 @@ h1.dots {
   text-align: center;
   background-color: #42b883;
 }
-<<<<<<< HEAD
 /* menu styles start here */
 #card{
-  background-color: #ff8246;
+  background-color:
   box-shadow: 2px 2px 2px black;
-=======
-
-/* combos styles start */
-
-h1 {
-  text-align: center;
->>>>>>> origin/master
+}
+#table{
+  background-color:
 }
