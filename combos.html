@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Deals</title>
+    <meta name="viewport" content="width=device-width , intial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/Dstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        // Check for click events on the navbar burger icon
+        $(".navbar-burger").click(function() {
+          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+          $(".navbar-burger").toggleClass("is-active");
+          $(".navbar-menu").toggleClass("is-active");
+        });
+      });
+    </script>
+  </head>
+  <body>
+
+    <div class="wrapper">
+      <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+
+
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+
+            <a class="navbar-item" href="index.html">
+              Home
+            </a>
+
+            <a class="navbar-item" href="menu.html">
+              Menu
+            </a>
+
+            <a class="navbar-item" href="Combos.html">
+              Combos
+            </a>
+
+            <a class="navbar-item">
+              Coupons
+            </a>
+
+            <a class="navbar-item">
+              Directions
+            </a>
+          </div>
+      </nav>
+
+      <header class="header">
+        <img class="logo" src="/assets/img/pLogo.png" alt="Palma logo">
+      </header>
+    </div>
+
+    <div class="cMenu">
+      <h1>Combo Menu</h1>
+    </div>
+  </body>
+</html>
