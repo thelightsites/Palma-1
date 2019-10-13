@@ -114,5 +114,9 @@ h1.dots {
 #table{
   width: 100%;
   border-radius: 10px;
-  background-color:#FFD9A2 ;
+  background-color:#FFD9A2;
+  border-bottom:0px !important;
+}
+.table th, .table td {
+    border-bottom:  1px !important;
 }
