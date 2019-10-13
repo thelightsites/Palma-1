@@ -13,6 +13,7 @@ html, body {
 
 h1, h3 {
   color: black;
+  text-align: center;
 }
 
 h1.dots {
@@ -40,10 +41,8 @@ h1.dots {
   width: 35%;
 }
 
-.wrapper-nav {
-  border: 2px solid red;
-  width: 100%;
-  text-align: center;
+.wrapper-menu {
+ height: 100%;
 }
 
 #slideshow {
@@ -93,7 +92,12 @@ h1.dots {
   background-color:
   box-shadow: 2px 2px 2px black;
 }
-#table{
-  background-color:
 
+#menu{
+  width: 100%;
+  border:2px solid red;
+}
+#table{
+  border:2px solid red;
+  width: 100%;
 }
