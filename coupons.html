@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>coupons</title>
+
+    <meta name="viewport" content="width=device-width , intial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Bitter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/Dstyles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        // Check for click events on the navbar burger icon
+        $(".navbar-burger").click(function() {
+          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+          $(".navbar-burger").toggleClass("is-active");
+          $(".navbar-menu").toggleClass("is-active");
+        });
+      });
+    </script>
+  </head>
+  <body>
+
+    <div class="wrapper">
+      <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+
+
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+
+            <a class="navbar-item" href="index.html">
+              Home
+            </a>
+
+            <a class="navbar-item" href="menu.html">
+              Menu
+            </a>
+
+            <a class="navbar-item" href="Combos.html">
+              Combos
+            </a>
+
+            <a class="navbar-item" href="coupons.html">
+              Coupons
+            </a>
+
+            <a class="navbar-item">
+              Directions
+            </a>
+          </div>
+      </nav>
+
+      <header class="header">
+        <img class="logo" src="assets/img/pLogo.png" alt="Palma logo">
+      </header>
+
+      <div class="cMenu">
+        <h1>Coupons</h1>
+      </div>
+
+      <div class="Coupon1">
+        <h1 class="cTextBig"> 5% <br>
+        OFF</h1> <br>
+
+        <div class="cTextMedium">ANY CATERING ORDER</div> <br> <br>
+
+        <div class="cTextSmall">CANNOT BE COMBINED. <br>
+        MUST PRESENT COUPON. <br>
+        EXPIRES 9/15/19</div>
+      </div>
+
+
+      <div class="Coupon2">
+        <h1 class="cTextBig"> $10 <br>
+        OFF</h1> <br>
+
+        <div class="cTextMedium">ANY CATERING ORDER OVER $200</div>
+
+        <div class="cTextSmall" id="cTextSmall2">CANNOT BE COMBINED. <br>
+        MUST PRESENT COUPON. <br>
+        EXPIRES 9/15/19</div>
+      </div>
+
+      </div>
+
+
+      </div>
+
+  </body>
+
+  <footer>Powered By @TheLightSites</footer>
+</html>
