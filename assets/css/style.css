@@ -76,6 +76,20 @@ h1.dots {
   text-align: center;
   z-index: 2;
 }
+.menuTitle {
+  border: 1px solid black;
+  color: white;
+  background-color: #ff8246;
+  border-radius: 50px;
+  box-shadow: 2px 2px 2px black;
+  padding: 5px;
+  position: relative;
+  top: -20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  z-index: 2;
+}
 
 #hours {
   text-align: center;
@@ -95,9 +109,8 @@ h1.dots {
 
 #menu{
   width: 100%;
-  border:2px solid red;
 }
 #table{
-  border:2px solid red;
   width: 100%;
+  border-radius: 10px;
 }
