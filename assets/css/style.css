@@ -28,6 +28,7 @@ h1.dots {
 .header {
   width: 100%;
   background-color: #f09c67;
+  margin-top: 60px;
 }
 
 .wrapper {
@@ -113,4 +114,9 @@ h1.dots {
 #table{
   width: 100%;
   border-radius: 10px;
+  background-color:#FFD9A2;
+  border-bottom:0px !important;
+}
+.table th, .table td {
+    border-bottom:  1px !important;
 }
