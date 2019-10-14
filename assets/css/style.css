@@ -91,6 +91,22 @@ h1.dots {
   text-align: center;
   z-index: 2;
 }
+.submenuTitle {
+  border: 1px solid black;
+  color: white;
+  background-color: #42b883;
+  border-radius: 50px;
+  box-shadow: 2px 2px 2px black;
+  padding: 5px;
+  position: relative;
+  top: -10px;
+  width: 50%;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  z-index: 2;
+}
 
 #hours {
   text-align: center;
@@ -119,4 +135,5 @@ h1.dots {
 }
 .table th, .table td {
     border-bottom:  1px !important;
+    padding:8px !important;
 }
