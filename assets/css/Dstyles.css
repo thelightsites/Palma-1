@@ -1,22 +1,16 @@
 
 
-.cMenu h1 {
-  background-color:#f09c67;
-  text-align: center;
-  color: white;
-  font-size: 180%;
-  font-family: 'Bitter', serif;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
 #C1 {
   margin-top: 20px;
 }
 
 
 .wrapper {
-  height:95vh;
+  height:14vh;
+}
+
+.wrapperCoupons {
+  height:87vh;
 }
 
 .card1 {
@@ -79,7 +73,7 @@ footer{
   height: 68%;
   text-align: center;
   float: left;
-  margin-left: 10px;
+  margin: 40px 0 0 10px;
   border-radius: 15px;
   border-style: dashed;
   border-color: white;
@@ -92,7 +86,7 @@ footer{
   height: 68%;
   text-align: center;
   float: right;
-  margin-right: 10px;
+  margin: 40px 10px 0 0;
   border-radius: 15px;
   border-style: dashed;
   border-color: white;
@@ -102,14 +96,12 @@ footer{
 
 .cTextBig {
   margin-top: 30px;
-  font-size: 300%;
   font-family: 'Bitter', serif;
   font-weight: bold;
   color: white;
 }
 
 .cTextMedium {
-  font-size: 140%;
   color: white;
   font-family: 'Bitter', serif;
   font-weight: bold;
@@ -118,11 +110,10 @@ footer{
 }
 
 .cTextSmall {
-  font-size: 82%;
   font-family: 'Bitter', serif;
   color: white;
 }
 
 #cTextSmall2 {
-  margin-top: 17px;
+  margin-top: 22px;
 }
