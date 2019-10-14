@@ -126,14 +126,15 @@ h1.dots {
 
 #menu{
   width: 100%;
+  padding: 2px;
 }
 #table{
   width: 100%;
-  border-radius: 10px;
+  border-radius: 20px;
   background-color:#FFD9A2;
   border-bottom:0px !important;
 }
 .table th, .table td {
     border-bottom:  1px !important;
-    padding:8px !important;
+    padding:5px !important;
 }
