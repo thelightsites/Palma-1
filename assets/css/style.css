@@ -24,11 +24,15 @@ h1.dots {
   border-radius: 10px;
   height: 40px;
 }
+nav{
+  background-color: #f09c67;
 
+}
 .header {
   width: 100%;
   background-color: #f09c67;
-  margin-top: 60px;
+  margin-top: 52px;
+  margin-bottom: 20px;
 }
 
 .wrapper {
@@ -137,4 +141,7 @@ h1.dots {
 .table th, .table td {
     border-bottom:  1px !important;
     padding:5px !important;
+}
+#description{
+  text-align: center;
 }
