@@ -19,7 +19,9 @@ h1, h3 {
 h1.dots {
   color: white;
 }
-
+p{
+  color: black;
+}
 .uber {
   border-radius: 10px;
   height: 40px;
@@ -106,6 +108,21 @@ nav{
   top: -10px;
   width: 50%;
   float: left;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  z-index: 2;
+}
+.extra {
+  border: 1px solid black;
+  color: white;
+  background-color: #42b883;
+  border-radius: 50px;
+  box-shadow: 2px 2px 2px black;
+  padding: 5px;
+  position: relative;
+  top: -10px;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
