@@ -66,33 +66,37 @@
         <img class="logo" src="assets/img/pLogo.png" alt="Palma logo">
       </header>
 
-<section>
-      <div class="Coupon1">
-        <p class="cTextBig is-size-4"> 5% <br>
-        OFF</p> <br>
-
-        <div class="cTextMedium is-size-6">ANY CATERING ORDER</div> <br> <br>
-
-        <div class="cTextSmall is-size-7">CANNOT BE COMBINED. <br>
-        MUST PRESENT COUPON. <br>
-        EXPIRES 9/15/19</div>
-      </div>
 
 
-      <div class="Coupon2">
-        <h1 class="cTextBig is-size-4"> $10 <br>
-        OFF</h1> <br>
+      <div class="w3-content w3-display-container">
+      <img class="mySlides" src="assets/img/f1.jpg" style="width:100%">
+      <img class="mySlides" src="assets/img/f2.jpg" style="width:100%">
+      <img class="mySlides" src="assets/img/f3.jpg" style="width:100%">
+      <img class="mySlides" src="assets/img/f4.jpg" style="width:100%">
 
-        <div class="cTextMedium is-size-6">ANY CATERING ORDER OVER $200</div> <br>
+      <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+      <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+    </div>
 
-        <div class="cTextSmall is-size-7" id="cTextSmall2">CANNOT BE COMBINED. <br>
-        MUST PRESENT COUPON. <br>
-        EXPIRES 9/15/19</div>
-      </div>
+    <script>
+var slideIndex = 1;
+showDivs(slideIndex);
 
-</section>
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
 
-      </div>
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
 
 
 
