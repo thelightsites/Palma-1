@@ -17,7 +17,7 @@
   height:100vh;
 }
 
-.card1 {
+#card {
   margin-top: 10px;
   width: 100%;
   background-color: #ff8246;
@@ -28,7 +28,7 @@
   box-shadow: 1px 1px 1px black;
 }
 
-.card2 {
+#card {
   margin-top: 10px;
   width: 100%;
   background-color: #FFD9A2;
