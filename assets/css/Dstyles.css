@@ -1,9 +1,5 @@
 
 
-#C1 {
-  margin-top: 20px;
-}
-
 #comboSec {
   padding:0 5px 0 5px;
 }
@@ -17,7 +13,7 @@
   height:100vh;
 }
 
-#card {
+#card1 {
   margin-top: 10px;
   width: 100%;
   background-color: #ff8246;
@@ -28,7 +24,7 @@
   box-shadow: 1px 1px 1px black;
 }
 
-#card {
+#card2 {
   margin-top: 10px;
   width: 100%;
   background-color: #FFD9A2;
@@ -53,8 +49,8 @@
 }
 
 .Stext {
-  font-size: 50%;
-  color: white;
+  font-size: 58%;
+  color: black;
 }
 
 .eText {
